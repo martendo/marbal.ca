@@ -1,0 +1,38 @@
+title: marbal.ca
+description: Martin "martendo" Baldwin's personal website
+url: https://marbal.ca
+baseurl: ""
+timezone: America/Toronto
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      sect: marbal.ca
+  -
+    scope:
+      path: "blog"
+      type: posts
+    values:
+      layout: post
+      sect: marblog
+      sectall: blog.md
+      permalink: /:categories/:year/:month/:title
+  -
+    scope:
+      path: "retrospect"
+      type: posts
+    values:
+      layout: post
+      sect: retrospect
+      sectall: retrospect.md
+      permalink: /projects/:title
+collections:
+  projects:
+    output: true
+kramdown:
+  smart_quotes: apos,apos,quot,quot
+  typographic_symbols:
+    hellip: ...
+exclude:
+  - "CNAME"

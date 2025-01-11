@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en-CA">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1">
+		<title>{{ page.title | xml_escape }} :: {{ page.sect | xml_escape }}</title>
+		<meta name="description" content="{{ site.description | xml_escape }}">
+		<link rel="canonical" href="{{ site.url }}">
+		<link rel="stylesheet" href="{% link style.css %}">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+		{% if page.highlight -%}
+		<link rel="stylesheet" href="{% link highlight.css %}">
+		{%- endif %}
+		<meta property="og:locale" content="en_CA">
+		<meta property="og:title" content="{{ page.title | xml_escape }}">
+		<meta property="og:site_name" content="{{ site.title | xml_escape }}">
+		<meta property="og:description" content="{{ site.description | xml_escape }}">
+		<meta property="og:type" content="website">
+		<meta property="og:url" content="{{ site.url }}">
+	</head>
+	<body id="container">
+		{% if page.h1 %}<div class="c"><h1>{{ page.h1 | xml_escape }}</h1></div>{% endif %}
+		{{ content }}
+	</body>
+</html>

@@ -1,0 +1,44 @@
+---
+layout: article
+---
+
+{%- for category in site.categories -%}
+	{%- if category[0] != page.categories[0] -%}
+		{%- continue -%}
+	{%- endif -%}
+	{%- for post in category[1] -%}
+		{%- if post.url != page.url -%}
+			{%- continue -%}
+		{%- endif -%}
+		{%- unless forloop.last -%}
+			{%- assign olderindex = forloop.index0 | plus: 1 -%}
+			{%- assign older = category[1][olderindex] -%}
+		{%- endunless -%}
+		{%- unless forloop.first -%}
+			{%- assign newerindex = forloop.index0 | minus: 1 -%}
+			{%- assign newer = category[1][newerindex] -%}
+		{%- endunless -%}
+		{%- break -%}
+	{%- endfor -%}
+	{%- break -%}
+{%- endfor -%}
+
+<nav class="c">
+	<p><strong>{{ page.sect }}</strong><span role="separator"> :: </span><a href="{% link {{ page.sectall }} %}">all</a></p>
+	<p>
+		{%- if older -%}
+			<a href="{{ older.url }}">&larr;&nbsp;older</a>
+		{%- endif -%}
+		{%- if newer -%}
+			{%- if older %}{% include dotsep.html %}{% endif -%}
+			<a href="{{ newer.url }}">newer&nbsp;&rarr;</a>
+		{%- endif -%}
+	</p>
+</nav>
+
+<header>
+	<h1>{{ page.title }}</h1>
+	<time>{{ page.date | date: "%Y-%m-%d" }}</time>
+</header>
+
+{{ content }}
