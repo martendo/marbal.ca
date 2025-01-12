@@ -47,6 +47,14 @@ jobs:
         run: bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
         env:
           JEKYLL_ENV: production
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+      - name: Minify
+        run: |
+          npm install minify -g
+          shopt -s globstar nullglob
+          for f in _site/**/*.html _site/**/*.css; do minify "$f" > "$f.min"; done
+          for f in **/*.min; do mv "$f" "${f%.min}"; done
       - name: Upload artifact
         # Automatically uploads an artifact from the './_site' directory by default
         uses: actions/upload-pages-artifact@v3
