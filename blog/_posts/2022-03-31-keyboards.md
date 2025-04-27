@@ -31,21 +31,21 @@ There are some small things that I dislike about `ca(fr)`,
 the layout for Canadian French.
 The main issue I have with it is simply with the characters it has available:
 most notably, it has a cedilla
-&#x27E8;&cedil;&#x27E9;
+<span class="vw">&#x27E8;&cedil;&#x27E9;</span>
 dead key, even though it would only be used with the letter
-&#x27E8;c&#x27E9;
-(that is, &#x27E8;&ccedil;&#x27E9;, as in *fran&ccedil;ais*{:lang="fr-CA"}).
+<span class="vw">&#x27E8;c&#x27E9;</span>
+(that is, <span class="vw">&#x27E8;&ccedil;&#x27E9;</span>, as in *fran&ccedil;ais*{:lang="fr-CA"}).
 There also aren't dedicated keys for
-&#x27E8;&egrave;&#x27E9;
+<span class="vw">&#x27E8;&egrave;&#x27E9;</span>
 or
-&#x27E8;&agrave;&#x27E9;,
+<span class="vw">&#x27E8;&agrave;&#x27E9;</span>,
 which aren't uncommon characters;
 I have to type
 <kbd>&grave;</kbd><kbd>e</kbd>
 or
 <kbd>&grave;</kbd><kbd>a</kbd>
 for those, respectively. (There *is* a dedicated key for the common
-&#x27E8;&eacute;&#x27E9;,
+<span class="vw">&#x27E8;&eacute;&#x27E9;</span>,
 so I'll give them that.)
 
 After a bit of investigating, I found out about `ca(multix)`.
@@ -55,7 +55,7 @@ but it does have the dedicated keys I was looking for!
 It also has some characters moved to places that I'm more familiar with,
 due to my experience with using the `us(basic)` layout.
 For example, the at sign
-&#x27E8;@&#x27E9;
+<span class="vw">&#x27E8;@&#x27E9;</span>
 is entered with
 <kbd>Shift</kbd><kbd>2</kbd>
 using `ca(multix)`, as it is with `us(basic)`.
@@ -63,20 +63,20 @@ With `ca(fr)`, it's
 <kbd>AltGr</kbd><kbd>2</kbd>
 instead, where
 <kbd>Shift</kbd><kbd>2</kbd>
-is a double quote &#x27E8;\"&#x27E9;.
+is a double quote <span class="vw">&#x27E8;\"&#x27E9;</span>.
 
 ## Fancy Characters
 
 Sometimes --- not often, I'll admit, but sometimes ---
 I want to type some more exotic characters.
-These might be the em dash &#x27E8;---&#x27E9;,
-degree symbol &#x27E8;&deg;&#x27E9;,
-multiplication sign &#x27E8;&times;&#x27E9;,
-division sign &#x27E8;&divide;&#x27E9;,
-minus sign &#x27E8;&minus;&#x27E9;
-(different from the "hyphen-minus" &#x27E8;-&#x27E9; found in ASCII),
+These might be the em dash <span class="vw">&#x27E8;---&#x27E9;</span>,
+degree symbol <span class="vw">&#x27E8;&deg;&#x27E9;</span>,
+multiplication sign <span class="vw">&#x27E8;&times;&#x27E9;</span>,
+division sign <span class="vw">&#x27E8;&divide;&#x27E9;</span>,
+minus sign <span class="vw">&#x27E8;&minus;&#x27E9;</span>
+(different from the "hyphen-minus" <span class="vw">&#x27E8;-&#x27E9;</span> found in ASCII),
 and perhaps a superscript two
-&#x27E8;&sup2;&#x27E9;,
+<span class="vw">&#x27E8;&sup2;&#x27E9;</span>,
 to name... nearly all of them.
 
 Most of those characters are normally typed with <kbd>AltGr</kbd>,
@@ -103,7 +103,7 @@ Finally, I can write this with ease! I've always wanted this!
 </figure>
 
 I still use HTML entities
-(e.g., `&plusmn;` for &#x27E8;&plusmn;&#x27E9;)
+(e.g., `&plusmn;` for <span class="vw">&#x27E8;&plusmn;&#x27E9;</span>)
 whenever I can, but it's nice to know I would be able to type out
 some of these characters when not writing markup.
 
@@ -119,7 +119,7 @@ useful when that single character isn't found on your keyboard.
 For example,
 <kbd>Compose</kbd><kbd>t</kbd><kbd>m</kbd>
 results in
-&#x27E8;&trade;&#x27E9;.
+<span class="vw">&#x27E8;&trade;&#x27E9;</span>.
 
 One of those special characters is the em dash, entered with
 <kbd>Compose</kbd><kbd>-</kbd><kbd>-</kbd><kbd>-</kbd>!
@@ -153,7 +153,7 @@ I actually no longer need to use `us(altgr-intl)`,
 since all of the characters I wanted from it are available with
 <kbd>Compose</kbd>.
 For example, I can type the multiplication sign
-&#x27E8;&times;&#x27E9;
+<span class="vw">&#x27E8;&times;&#x27E9;</span>
 with
 <kbd>Compose</kbd><kbd>x</kbd><kbd>x</kbd>,
 so I don't need to be able to use
@@ -197,6 +197,7 @@ Then I define one more sequence for the minus sign,
 > - March 29--31
 > - It's nice --- really!
 > - 3&nbsp;&minus;&nbsp;5&nbsp;=&nbsp;&minus;2
+{:.vw}
 <figcaption markdown="1">
 At last, the en dash, em dash, and minus sign!
 </figcaption>

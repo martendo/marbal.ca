@@ -159,6 +159,10 @@ code:not(.highlight code) {
 	font-size: 0.8em;
 }
 
+.vw {
+	font-family: sans-serif;
+}
+
 table {
 	border-collapse: collapse;
 	width: 100%;
