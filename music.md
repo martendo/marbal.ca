@@ -16,7 +16,7 @@ including short sketches
 {% for track in tracks %}
 {% assign name = track.shortname | default: track.title | slugify %}
 <li class="card">
-<a href="{% link music/{{ name }}.mp4 %}">
+<a href="https://files.marbal.ca/music/{{ name }}.mp4">
 <section class="c" markdown="1">
 ![]({% link assets/music/{{ name }}.png %})
 
