@@ -12,7 +12,7 @@ since the project barely resembles a game at all.
 The source code is really silly.
 I was following [an old and mildly infamous tutorial](https://gb-archive.github.io/salvage/tutorial_de_ensamblador/tutorial_de_ensamblador_la_decadence.html),
 so I took a lot of liberties for my own amusement.
-I had the amazing idea of giving every label the most bizarre names I could come up with,
+I had the amazing idea of giving every label the most bizarre name I could come up with,
 leading to hits such as `potato_salad.walmart` and `strawberry_jam.let_set`.
 I also decided to write comments for as much code as I could,
 even when I had no idea what was being done.
