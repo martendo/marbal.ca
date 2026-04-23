@@ -3,7 +3,7 @@ title: projects
 h1: martinprojects
 permalink: /projects
 layout: article
-updated: 2025-01-11
+updated: 2026-04-23
 ---
 
 <div markdown="1">
@@ -22,16 +22,27 @@ personal favourites denoted with a gold star
 {:.c}
 
 <div markdown="1">
+## 2025 {#s2025}
+- <span class="subtext" markdown="1">*\[Helper\]*</span> [My Light and Spirit],
+light-based puzzle game, with [Capslock Studios].
+- <span class="subtext" markdown="1">*\[Co-developer\]*</span> [Stray Sender],
+mobile app for competitive creating and rating of roasts between friends,
+for [Hack the North] 2025.
+
 ## 2024 {#s2024}
 - <span class="subtext" markdown="1">*\[Co-developer\]*</span> Pulse,
 tongue-in-cheek romantic match rating device for SE101:
 I<sup>2</sup>C optical heart rate monitor data
 and conversation transcription analysis
+- <span class="subtext" markdown="1">*\[Co-developer\]*</span> [Sips Don't Lie],
+smart water bottle that playfully and publicly mocks you if you don't drink often enough,
+for [Hack the North] 2024.
 - <span class="subtext" markdown="1">*\[Co-developer\]*</span> [The Marshan],
 open world game for ICS4U, notable for the absurd feat of creating
 pseudo-3D graphics in [Greenfoot].
 - <span class="subtext" markdown="1">*\[Co-developer\]*</span> [Evo-Fishing],
 fishing competition simulation for ICS4U, notable for its complexity.
+- [The Tellurian], in-browser creative piece for ENG4U.
 - [relay], experimental WebSocket teaching server for my high school game
 development club.
 
@@ -152,9 +163,17 @@ from when I was around 10 years old.
 [Three.js]: https://threejs.org
 [Leaf Day]: https://github.com/martendo/leaf-day
 [Averted]: https://github.com/martendo/averted
+[The Tellurian]: https://github.com/martendo/the-tellurian
 
 [Jengo]: https://github.com/martendo/jengo
 [YRHacks]: https://yrhacks.ca
+
+[Sips Don't Lie]: https://devpost.com/software/sips-don-t-lie
+[Stray Sender]: https://devpost.com/software/stray-sender
+[Hack the North]: https://hackthenorth.com
+
+[My Light and Spirit]: https://groober.itch.io/my-light-spirit
+[Capslock Studios]: https://capslockstudios.com
 
 [Windows RG+]: {% post_url retrospect/2017-06-07-windowsrgplus %}
 [MIDI Info Grabber]: {% post_url retrospect/2020-06-17-midi-info-grabber %}
