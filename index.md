@@ -44,10 +44,11 @@ email: 'me' at this domain
 </div>
 {:.c}
 
-<figure>
+<figure markdown="1">
 <div id="beach" role="img" aria-labelledby="cap">
 {% include beach.html %}
 </div>
+{:.ascii-art}
 <figcaption id="cap" markdown="1">
 [a still]({% link assets/beach.png %})
 from [WEBFISHING](https://impress.games/press-kit/lamedev/webfishing),

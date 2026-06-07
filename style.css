@@ -125,7 +125,7 @@ a:active {
 }
 
 figure {
-	margin: 1em 2.5em;
+	margin: 1em;
 	font-size: 1rem;
 	-webkit-text-size-adjust: 100%;
 }
@@ -224,8 +224,8 @@ p img, ul img {
 	vertical-align: middle;
 }
 
-#beach {
-	line-height: 1.2;
+.ascii-art {
+	line-height: 1.275;
 	overflow: auto hidden;
 	text-wrap: nowrap;
 }

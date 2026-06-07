@@ -1,11 +1,11 @@
-pre { margin: 0; line-height: 125%; overflow-x: hidden; overflow-wrap: anywhere; word-break: break-all; white-space: pre-wrap }
-td.linenos .normal { color: #cdd6f4; background-color: #181825; padding-left: 5px; padding-right: 5px; }
-span.linenos { color: #cdd6f4; background-color: #181825; padding-left: 5px; padding-right: 5px; }
-td.linenos .special { color: #cdd6f4; background-color: #181825; padding-left: 5px; padding-right: 5px; }
-span.linenos.special { color: #cdd6f4; background-color: #181825; padding-left: 5px; padding-right: 5px; }
+pre { margin: 0; line-height: 125% }
+td.linenos .normal { color: #cdd6f4; background-color: #181825; padding-left: 5px; padding-right: 5px }
+span.linenos { color: #cdd6f4; background-color: #181825; padding-left: 5px; padding-right: 5px }
+td.linenos .special { color: #cdd6f4; background-color: #181825; padding-left: 5px; padding-right: 5px }
+span.linenos.special { color: #cdd6f4; background-color: #181825; padding-left: 5px; padding-right: 5px }
 .highlight .hll { background-color: #313244 }
 .highlight, code { background: #1e1e2e; color: #cdd6f4; tab-size: 4 }
-div.highlight { padding: 1em; border-radius: 0.6rem; }
+div.highlight { padding: 1em; border-radius: 0.6rem; overflow-x: auto }
 .highlight .c { color: #9399b2 } /* Comment */
 .highlight .err { color: #cdd6f4 } /* Error */
 .highlight .g { color: #cdd6f4 } /* Generic */
