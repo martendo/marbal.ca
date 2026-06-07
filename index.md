@@ -3,7 +3,7 @@ title: home
 h1: Martin "martendo" Baldwin
 permalink: /
 layout: article
-updated: 2025-01-11
+updated: 2026-06-06
 ---
 
 <div markdown="1">
@@ -52,7 +52,8 @@ email: 'me' at this domain
 <figcaption id="cap" markdown="1">
 [a still]({% link assets/beach.png %})
 from [WEBFISHING](https://impress.games/press-kit/lamedev/webfishing),
-passed through [a little script]({% link ascii.py %})
+passed through [a little script]({% link _projects/ascii.py %})
+([see more]({% post_url blog/2026-05-29-ascii %}))
 </figcaption>
 </figure>
 {:.c}

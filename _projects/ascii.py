@@ -1,3 +1,6 @@
+---
+permalink: ascii.py
+---
 #!/usr/bin/env python3
 """
 Create a colored ASCII representation of an image
